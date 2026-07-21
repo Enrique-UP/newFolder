@@ -15,6 +15,9 @@ import Exp12 from "./hooks/exp12";
 import Exp13 from "./hooks/exp13";
 import Exp14 from "./hooks/exp14";
 import Exp15 from "./hooks/exp15";
+import Exp16 from "./hooks/exp16";
+import Exp17 from "./hooks/exp17";
+import Exp18 from "./hooks/exp18";
 
 function App() {
   return (
@@ -47,14 +50,15 @@ function App() {
         <h1 className="hd">useCallback</h1>
         <Exp13 />
         <hr />
-
-        {/* 
-        <h1 className="hd">Loremmmmm</h1>
-        
-        
-        
         <Exp14 />
-        <Exp15 /> */}
+        <h1 className="hd">useMemo</h1>
+        <Exp15 />
+        <hr />
+        <Exp16 />
+        <h1 className="hd">Custom Hooks</h1>
+        <Exp17 />
+        <hr />
+        <Exp18 />
       </main>
     </>
   );
