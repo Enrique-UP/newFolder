@@ -37,6 +37,7 @@ export default function Exp17() {
     <>
     <pre><code>{code}</code></pre>
     <p></p>
+    <h1>Exp 17</h1>
       {data &&
         data.map((item) => {
           return <p key={item.id}>{item.title}</p>;

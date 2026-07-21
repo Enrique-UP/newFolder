@@ -30,7 +30,7 @@ export default function Exp11() {
 
   return (
     <>
-        <h1>Exp11</h1>
+        <h1>Exp 11</h1>
         <pre>
             <code>{code}</code>
         </pre>

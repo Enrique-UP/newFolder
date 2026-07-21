@@ -65,6 +65,7 @@ export default function Exp16() {
     <div>
         <pre><code>{code}</code></pre>
       <div>
+        <h1>Exp 16</h1>
         <h2>My Todos</h2>
         {todos.map((todo, index) => {
           return <p key={index}>{todo}</p>;
